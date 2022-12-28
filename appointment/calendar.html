@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" href="calendar.css">
+	<meta charset="UTF-8">
+	<title>Calendar</title>
+</head>
+
+<body>
+	<div id="main">
+		<h1>Weekly Calendar</h1>
+		<h3>To set an appointment: first select a day, then type in a Name, and click on the Set button.</h3>
+		<div class="col" id="left_col">
+			<div class="day" onclick="selectDay(0)">
+				<h2>Monday</h2>
+				<p></p>
+			</div>
+			<div class="day" onclick="selectDay(1)">
+				<h2>Tuesday</h2>
+				<p></p>
+			</div>
+			<div class="day" onclick="selectDay(2)">
+				<h2>Wednesday</h2>
+				<p></p>
+			</div>
+			<div class="day" onclick="selectDay(3)">
+				<h2>Thursday</h2>
+				<p></p>
+			</div>
+			<div class="day" onclick="selectDay(4)">
+				<h2>Friday</h2>
+				<p></p>
+			</div>
+		</div>
+		<div class="col" id="right_col">
+			<h3>Set Appointment</h3>
+			<form id="set_appointment">
+				<label>Name:<input type="text" id="newAppointment" name="appointment"></label>
+				<label><input type="button" value="Set" onclick="setAppointment()"></label><br>
+			</form>
+		</div>
+	</div>
+	<script>
+		
+		
+		// "clear" background color of all days and set red background color for the selected day
+		function selectDay(day_index) {
+			
+			
+		}
+
+		// set black background color (= "clear" background color) for all days
+		function clearDays() {
+			
+			
+		}
+
+		// copy Name for the appointment into the respective day of the week
+		function setAppointment() {
+			
+			
+		}
+	</script>
+</body>
+
+</html>
